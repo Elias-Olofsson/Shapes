@@ -22,7 +22,7 @@ namespace arv
         public int Circumferance()
         {
             return
-                width * 3;
+                width + height + (int)Math.Sqrt(width * width + height * height);
         }
     }
 }

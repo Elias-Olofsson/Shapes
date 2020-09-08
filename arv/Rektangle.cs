@@ -22,7 +22,7 @@ namespace arv
         public int Circumferance()
         {
             return
-                height * 4;
+                height * 2 + width * 2;
         }
     }
 }
