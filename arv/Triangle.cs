@@ -10,7 +10,19 @@ namespace arv
     {
         public Triangle(int height, int witdh):base(height, witdh)
         {
+           
+        }
 
+        public int Area()
+        {
+            return 
+                (height * width) /2;
+        }
+
+        public int Circumferance()
+        {
+            return
+                width * 3;
         }
     }
 }
