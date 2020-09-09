@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace arv
 {
-    class Rektangle : Shape
+    class Rektangle: IShape
     {
-        public Rektangle(int height, int witdh) : base(height, witdh)
+        int height;
+        int width;
+        public Rektangle(int height, int witdh)
         {
 
         }

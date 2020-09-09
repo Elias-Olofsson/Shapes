@@ -1,0 +1,7 @@
+C:\Users\Elev\Source\Repos\Elias-Olofsson\Shapes\arv\bin\Debug\arv.exe.config
+C:\Users\Elev\Source\Repos\Elias-Olofsson\Shapes\arv\bin\Debug\arv.exe
+C:\Users\Elev\Source\Repos\Elias-Olofsson\Shapes\arv\bin\Debug\arv.pdb
+C:\Users\Elev\Source\Repos\Elias-Olofsson\Shapes\arv\obj\Debug\arv.csprojAssemblyReference.cache
+C:\Users\Elev\Source\Repos\Elias-Olofsson\Shapes\arv\obj\Debug\arv.csproj.CoreCompileInputs.cache
+C:\Users\Elev\Source\Repos\Elias-Olofsson\Shapes\arv\obj\Debug\arv.exe
+C:\Users\Elev\Source\Repos\Elias-Olofsson\Shapes\arv\obj\Debug\arv.pdb

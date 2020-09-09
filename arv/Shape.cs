@@ -6,15 +6,9 @@ using System.Threading.Tasks;
 
 namespace arv
 {
-    class Shape
+    interface IShape
     {
-        protected int height;
-        protected int width;
-
-        public Shape(int height, int width)
-        {
-            this.height = height;
-            this.width = width;
-        }
+        int Area();
+        int Circumferance();
     }
 }

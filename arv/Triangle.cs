@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace arv
 {
-    class Triangle : Shape
+    class Triangle : IShape
     {
-        public Triangle(int height, int witdh):base(height, witdh)
+        int height;
+        int width;
+        public Triangle(int height, int witdh)
         {
            
         }
