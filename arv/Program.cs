@@ -14,19 +14,24 @@ namespace arv
             int height = int.Parse(Console.ReadLine());
             Console.WriteLine("Skriv in Bredden.");
             int width = int.Parse (Console.ReadLine());
-            Console.WriteLine("Skriv in antingen rätvinklig triangel eller rektangel");
+            Console.WriteLine("Skriv in antingen cirkel, rätvinklig triangel eller rektangel");
             Triangle triangle1 = new Triangle(height, width);
             Rektangle rektangle1 = new Rektangle(height, width);
-            if (Console.ReadLine() == "rätvinklig triangel")
+            Circle circle1 = new Circle(width);
+            string input = Console.ReadLine();
+            if (input == "rätvinklig triangel")
             {
                 Console.WriteLine("arean och omkretsen är:" + triangle1.Area() + ", " + triangle1.Circumferance());
             }
-            else if (Console.ReadLine() == "rektangle")
+            else if (input == "rektangel")
             {
                 Console.WriteLine("arean och omkretsen är:" + rektangle1.Area() + ", " + rektangle1.Circumferance());
             }
-
-            Rektangle shape = new Rektangle(1,1);
+            else if (input == "cirkel")
+            {
+                Console.WriteLine("arean och omkretsen är:" + circle1.Area() + ", " + circle1.Circumferance());
+            }
+            Console.Read();
         }
     }
 }

@@ -8,7 +8,7 @@ namespace arv
 {
     interface IShape
     {
-        int Area();
-        int Circumferance();
+        double Area();
+        double Circumferance();
     }
 }

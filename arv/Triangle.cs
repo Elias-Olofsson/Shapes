@@ -10,18 +10,19 @@ namespace arv
     {
         int height;
         int width;
-        public Triangle(int height, int witdh)
+        public Triangle(int height, int width)
         {
-           
+            this.height = height;
+            this.width = width;
         }
 
-        public int Area()
+        public double Area()
         {
             return 
                 (height * width) /2;
         }
 
-        public int Circumferance()
+        public double Circumferance()
         {
             return
                 width + height + (int)Math.Sqrt(width * width + height * height);

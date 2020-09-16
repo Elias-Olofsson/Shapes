@@ -10,18 +10,19 @@ namespace arv
     {
         int height;
         int width;
-        public Rektangle(int height, int witdh)
+        public Rektangle(int height, int width)
         {
-
+            this.height = height;
+            this.width = width;
         }
 
-        public int Area()
+        public double Area()
         {
             return
                 height * width;
         }
 
-        public int Circumferance()
+        public double Circumferance()
         {
             return
                 height * 2 + width * 2;
