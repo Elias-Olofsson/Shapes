@@ -16,7 +16,7 @@ namespace arv
 
         public double Area()
         {
-            return Math.PI * diameter / 2 * diameter / 2;
+            return Math.PI * (diameter / 2) * (diameter / 2);
         }
 
         public double Circumferance()

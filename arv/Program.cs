@@ -10,6 +10,7 @@ namespace arv
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Skriv bara heltal.");
             Console.WriteLine("Skriv in höjden.");
             int height = int.Parse(Console.ReadLine());
             Console.WriteLine("Skriv in Bredden.");
